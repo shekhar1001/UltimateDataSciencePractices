@@ -16,3 +16,13 @@ print('The array size is :'
       +str(mynd_arr.size))
 print('The array shape is:'
       +str(mynd_arr.shape))
+
+# mynd_arr type is: --><class 'numpy.ndarray'>
+# mynd_arr -->[[ 105  205  305]
+#  [ 405  505  605]
+#  [ 705  805  905]
+#  [1005 1105 1205]]
+# The array dimensions is:2
+# The data type of array elements is : int64
+# The array size is :12
+# The array shape is:(4, 3)

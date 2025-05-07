@@ -13,14 +13,16 @@ mybefore_time=datetime.now()
 for myloop in range(2000000):
     my_dot_product(myarr_1, myarr_2)
 myafter_time=datetime.now()
-print('Time take to execute using conventional Python Approach:',myafter_time-mybefore_time)
+print('Time take to execute using conventional Python Approach:'
+      ,myafter_time-mybefore_time)
 
 # code using nympy library
 mybefore2_time=datetime.now()
 for my_loop in range(2000000):
     np.dot(myarr_1,myarr_2)
 myafter2_time=datetime.now()
-print('Time take to execute using Numpy Library:', myafter2_time-mybefore2_time)
+print('Time take to execute using Numpy Library:'
+      , myafter2_time-mybefore2_time)
 
 # Time take to execute using conventional Python Approach: 0:00:05.214202
 # Time take to execute using Numpy Library: 0:00:03.331447
