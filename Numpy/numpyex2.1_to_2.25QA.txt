@@ -1,0 +1,37 @@
+Questions
+1. What defines a numpy array, and why is it 
+often considered the optimal choice for machine 
+learning applications?
+2. Explain the commonalities shared between 
+lists and numpy arrays.
+3. What are the distinguishing features between 
+lists and numpy arrays?
+4. How can 1-D arrays be created using lists, 
+tuples, and a Python code snippet?
+5. Could you provide a Python code snippet 
+demonstrating the creation of 2-D arrays using 
+nested lists?
+6. How is array creation achieved with a specific 
+data type, and could you illustrate this with a 
+Python code snippet?
+7. How can 1-D arrays be created using the arange() 
+function, and could you provide an example with a Python 
+code snippet?
+8. What is the purpose of the linspace() function, 
+and can you showcase its usage with a Python code 
+snippet?
+9.Could you provide Python code snippets demonstrating 
+the functionality of functions such as zeros(), ones(), 
+full(), eye(), diag(), and empty()?
+10. Explain a random module in numpy with a Python 
+snippet code.
+11. Explain the difference between View vs Copy 
+with a Python snippet code.
+12. Explain with a Python snippet code how to 
+access elements of ndarray.
+13. Explain with a Python snippet code how to 
+iterate elements of ndarray.
+14. Explain with a Python snippet code the arithmetic 
+operators in numpy.
+15. Explain with a Python snippet code the broadcasting 
+concept in numpy.

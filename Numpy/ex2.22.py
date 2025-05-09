@@ -7,7 +7,7 @@ mynd1=np.array([[[111,112,113],[114,115,116],[117,118,119]],[[11,21,31],[41,51,6
 # 1. using indexing: single element access, zero
 # based indexing supporting both +ve and -ve
 print(f'Array shape is: ==>{mynd1.shape}')
-print('To access the element 19 from the 3-D')
+print('To access the element 119 from the 3-D')
 print(f'mynd1[0][2][2]==>{mynd1[0][2][2]}')
 print(f'mynd1[-2][-1][-1]==>{mynd1[-2][-1][-1]}')
 print('-'*50)
@@ -26,7 +26,7 @@ print('-'*50)
 # myndarray[[2-D array indices],[row indices],
 # [column indices]]
 
-print('To access element 15 and 5 from 3-D array')
+print('To access element 115 and 51 from 3-D array')
 print(mynd1[[0,1],[1,1],[1,1]])
 print('-'*50)
 
@@ -37,3 +37,21 @@ print(mynp2[mynp2%2 !=0]) ## displaying odd numbers
 # from an array as condition will return the boolean
 # value and array[condition] will return the result
 
+
+
+# Array shape is: ==>(2, 3, 3)
+# To access the element 19 from the 3-D
+# mynd1[0][2][2]==>119
+# mynd1[-2][-1][-1]==>119
+# --------------------------------------------------
+# Accessing elements: 0th and 2nd row of 0th and 2nd column value of each 2-D array
+# mynd1[:,::2,::2]==>[[[111 113]
+#   [117 119]]
+
+#  [[ 11  31]
+#   [ 71  91]]]
+# --------------------------------------------------
+# To access element 115 and 51 from 3-D array
+# [115  51]
+# --------------------------------------------------
+# [11 13 15 17 19 21]
