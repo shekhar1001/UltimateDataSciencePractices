@@ -1,17 +1,17 @@
 # dstack()
-import numpy as mynp
+import numpy as np
 
 print("Eg1 dstack for 1-D array------------------------------")
-myarr1 = mynp.array([1, 2, 3,])
-myarr2 = mynp.array([11,12,13])
-myarr3 = mynp.dstack((myarr1,myarr2))
+myarr1 = np.array([1, 2, 3,])
+myarr2 = np.array([11,12,13])
+myarr3 = np.dstack((myarr1,myarr2))
 print(f"dstack array is {myarr3}")
 print(f"dstack 1-D array shape is {myarr3.shape}")
 print("d stack for 2-D array------------------------------")
-a = mynp.arange(11,17).reshape(3,2)
-b = mynp.arange(1,7).reshape(3,2)
-print(f" dstack 2-D array is :{mynp.dstack((a,b))}")
-print(f" dstack 2-D array shape is : {mynp.dstack((a,b)).shape}")
+a = np.arange(11,17).reshape(3,2)
+b = np.arange(1,7).reshape(3,2)
+print(f" dstack 2-D array is :{np.dstack((a,b))}")
+print(f" dstack 2-D array shape is : {np.dstack((a,b)).shape}")
 
 # Eg1 dstack for 1-D array------------------------------
 # dstack array is [[[ 1 11]
