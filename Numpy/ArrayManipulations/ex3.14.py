@@ -1,6 +1,6 @@
 # hsplit()
 import numpy as np
-#print(help(np.hsplit))
+
 myarr1= np.arange(1,9).reshape(2,4)
 print("Eg1: splitting based on sections................")
 print(f"hsplit:2 {np.hsplit(myarr1,2)}")

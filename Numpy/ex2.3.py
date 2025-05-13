@@ -2,7 +2,7 @@ import numpy as np
 import sys
 my11=[loop for loop in range(11,31)]
 myndarray=np.array(my11)
-
+print(myndarray)
 print('The List size is a '
       , sys.getsizeof(my11))
 print('The ndarray size is a '
